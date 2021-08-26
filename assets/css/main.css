@@ -1,0 +1,185 @@
+nav{
+    width: 22%;
+    height: 100vh;
+    overflow: auto;
+}
+nav header{
+    border-bottom: 1px solid var(--mainColorBlur);
+    background-color: var(--mainBackColor);
+    padding: 12px 6px;
+    display: flex;
+    width: 20%;
+    z-index: 2;
+    align-items: center;justify-content: space-evenly;
+    position: fixed;
+}
+nav header .logo{
+    color: var(--mainColor);
+    font-size: 28px;
+    font-weight: 1000;
+    padding: 5px 12px;
+    border-radius: 8px;
+    cursor: pointer; /* grab */
+    transition: all 0.3s ease;
+}
+nav header .logo:hover{
+    background-color: var(--grayBlur1);
+}
+nav header .logo>span{
+    color: var(--dark);
+}
+nav header .version{
+    color: var(--dark);
+    font-size: 12px;
+}
+
+nav .list{
+    margin: 100px 15px 10px 15px;
+}
+nav .list p{
+    margin: 15px 10px;
+    color: gray;
+    font-weight: 700;
+}
+nav .list>div{
+    border-radius: 8px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    padding: 6px 20px;
+}
+nav .list>div.active{
+    background-color: var(--mainColor);
+    color: white;
+}
+
+/* @media screen and  (max-width:1000px){
+    nav{
+        display: none;
+    }
+    .content{
+        width: 100%;
+    }
+} */
+
+/*  */
+.content{
+    width: 78%;
+    height: 100vh;
+    overflow: auto;
+}
+.content header{
+    width: 78%;
+    height: 71px;
+    border-bottom: 1px solid var(--mainColorBlur);
+    background-color: var(--mainBackColor);
+    position: fixed;
+    display: flex;
+    align-items: center;justify-content: flex-end;
+    flex-direction: row;
+    /* position: relative; */
+}
+.content header .change-mode{
+    line-height: 30px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+.content header .change-mode:hover{
+    background-color: var(--grayBlur1);
+}
+.content header .change-mode span{
+    margin: 0 8px 0 2px;
+}
+.content header .mode-list{
+    display: none;
+    position: absolute;
+    top: 72px;right: 78px;
+    width: 180px;
+    max-height: 250px;
+    overflow: auto;
+    padding: 10px 0;
+    border-radius: 0 0 8px 8px;
+    background-color: #fff;
+    box-shadow: 20px 15px 15px rgba(207, 207, 207, .4), -20px 15px 15px rgba(207, 207, 207, .4);
+    /*  */
+    text-align: center;
+}
+.content header .mode-list>div{
+    width: 60%;
+    margin: 0 auto;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 900;
+}
+.content header .mode-list>div.active{
+    background-color: var(--mainColor);
+    color: white;
+}
+.content header .mode-list>div:hover{
+    background-color: var(--grayBlur1);
+}
+.content header .mode-list>div.active:hover{
+    background-color: var(--mainColor);
+}
+.content header .github{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.content header .github:hover{
+    background-color: var(--grayBlur1);
+}
+
+.content .box{
+    margin: 100px 50px 20px;
+}
+.content .box .install .navigator1{
+    display: flex;
+}
+.content .box .install .navigator1>div{
+    /* background-color: aqua; */
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 80px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--mainColorBlur);
+    color: gray;
+    font-weight: 600;
+    transition: all 0.15s linear;
+}
+.content .box .install .navigator1>div:hover{
+    color: #111;
+}
+.content .box .install .navigator1>div.active{
+    border:1px solid var(--mainColorBlur);
+    border-bottom: transparent;
+    border-radius: 12px 12px 0 0;
+    color: #111;
+}
+
+h1,h2{
+    color: var(--mainColor);
+}
+.content .box .install .plugin p{
+    margin: 40px 0 15px;
+}
+
+
+/* test */
+.box button{
+    padding: 10px 20px;
+    display: block;
+    margin: 50px 10px;
+}

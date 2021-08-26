@@ -1,0 +1,17 @@
+*{
+    margin: 0;padding: 0;
+}
+:root{
+    --mainColor: #1a80b8;
+    --mainColorBlur: rgba(26, 128, 184, .2);
+    --mainBackColor: #f1fefa;
+    --mainColorSource: teal;
+    --dark: #111;
+    --gray: #ddd;
+    --grayBlur1: rgba(221, 221, 221, .8);
+}
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--mainBackColor);
+}
