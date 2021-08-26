@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>daisyUI - learn</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" /> -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@1.13.2/dist/full.css" rel="stylesheet" type="text/css" /> -->
-    <link rel="stylesheet" href="./assets/css/head.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/head.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
 <body>
@@ -19,7 +17,7 @@
         </header>
         <div class="list">
             <p>Docs</p>
-            <div class="active">Install</div>
+            <div>Install</div>
             <div>Use</div>
             <div>Customize</div>
             <div>Themes</div>
@@ -32,7 +30,7 @@
             <div>Avatar</div>
             <div>Badge</div>
             <div>Breadcrumbs</div>
-            <div id="button">Button</div>
+            <div class="active">Button</div>
             <div>Button Group</div>
             <div>Card</div>
             <div>Carousel</div>
@@ -76,52 +74,11 @@
             
         </header>
         <div class="box">
-            <div class="install">
-                <div class="navigator1">
-                    <div class="active" id="plugin">plugin</div>
-                    <div id="cdn">CDN</div>
-                    <div id="windixcss">windixcss</div>
-                    <div id="bass">bass</div>
-                </div>
-                <div class="plugin">
-                    <h1>Install as daisyUI CSS plugin</h1>
-                    <p>You need <u>Node.js</u> and <u>daisyUI</u> installed</p>
-                    <div>1、Install KaisyUI:</div>
-                    <div class="code">npm i ... ...</div>
-                    <div>2、Then add KaisyUI to your <span class="bo">config.js</span></div>
-                    <div class="code">
-                        <pre>module.exports = {</pre>
-                        <pre> </pre>
-                        <pre>   plugins: [</pre>
-                        <pre>   requires('... ...'),</pre>
-                        <pre>   ],</pre>
-                        <pre>}</pre>
-                    </div>
-                    <hr size="1px" fill="rgba(26, 128, 184, .2)">
-                    <div class="btn next">NEXT: How to use?</div>
-                </div>
-                <div class="cdn" hidden>
-                    <div class="code">
-                        <pre>module.exports = {</pre>
-                        <pre> </pre>
-                        <pre>   plugins: [</pre>
-                        <pre>   requires('... ...'),</pre>
-                        <pre>   ],</pre>
-                        <pre>}</pre>
-                    </div>
-                </div>
-                <div class="windixcss" hidden>
-                    <h1>Windixcss</h1>
-                </div>
-                <div class="bass" hidden>
-                    <h1>Bass</h1>
-                </div>
-            </div>
+            
         <!-- .box end -->
         </div> 
     </div>
     <script src="/assets/js/pub.js"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
