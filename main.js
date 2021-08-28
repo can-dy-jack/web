@@ -72,5 +72,6 @@ navigator1Bass.onclick = function(){
 // }
 const listButtons = document.getElementById('button');
 listButtons.onclick = function(){
-    window.location = "/web/assets/pages/buttons.html";
+    // /web/pages/buttons.html
+    window.location = "./pages/buttons.html";
 }

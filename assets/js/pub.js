@@ -24,3 +24,8 @@ for(let k=0;k<code.length;k++){
     code[k].appendChild(circle);
 }
 
+// step
+const install = document.getElementById('install');
+install.onclick = function(){
+    window.location = "../../index.html";
+}

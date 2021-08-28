@@ -1,4 +1,241 @@
+.buttons{
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
+/* 导航条 */
+.content .box .buttons .navigatorBtn{
+    display: flex;
+}
+.content .box .buttons .navigatorBtn>div{
+    /* background-color: aqua; */
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 80px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--mainColorBlur);
+    color: #888;
+    font-weight: 600;
+    transition: all 0.15s linear;
+}
+.content .box .buttons .navigatorBtn>div:hover{
+    color: #111;
+}
+.content .box .buttons .navigatorBtn>div.active{
+    border:1px solid var(--mainColorBlur);
+    border-bottom: transparent;
+    border-radius: 12px 12px 0 0;
+    color: #111;
+}
+/* btn */
 .btn-area{
-    margin: 20px;
+    margin: 20px 0;
+}
+.bootstrap-ui .btn-area>div{
+    margin: 30px 0;
+}
+h3{
+    color: var(--mainColor);
+    margin: 10px 0;
+    padding: 2px 10px;
+    cursor: default;
+    border-left: 5px solid var(--mainColor);
+}
+.buttons .btn-area>div{
+    padding: 5px 0;
+}
+.buttons .btn-area>button{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttons button{
+    outline: none;background: none;border: none;
+    padding: 8px 15px;
+    font-weight: 600;
+    color: #111;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.35s ease-in-out;
+    font-family: JetBrains Mono, microsoft yahei, arial, serif;
+    /*  */
+    /* border: 1px solid #11111121; */
 }
 
+.buttons .btn-area .btn-in button.btn-main{
+    background-color: var(--mainColor);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-main:hover{
+    background-color: #136a99;
+}
+.buttons .btn-area .btn-in button.btn-main:active{
+    box-shadow: 0 0 0 4px var(--mainColorBlur2);
+}
+.buttons .btn-area .btn-in button.btn-info{
+    background-color: var(--bs-info);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-info:hover{
+    background-color: #0ebcdf;
+}
+.buttons .btn-area .btn-in button.btn-info:active{
+    box-shadow: 0 0 0 4px #0dcaf063;
+}
+.buttons .btn-area .btn-in button.btn-primary{
+    background-color: var(--bs-primary);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-primary:active{
+    box-shadow: 0 0 0 4px #0d6efd63;
+}
+.buttons .btn-area .btn-in button.btn-secondary{
+    background-color: var(--bs-secondary);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-secondary:active{
+    box-shadow: 0 0 0 4px #6c757d63;
+}
+.buttons .btn-area .btn-in button.btn-success{
+    background-color: var(--bs-success);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-success:active{
+    box-shadow: 0 0 0 4px #19875463;
+}
+.buttons .btn-area .btn-in button.btn-warning{
+    background-color: var(--bs-warning);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-warning:active{
+    box-shadow: 0 0 0 4px #19875463;
+}
+.buttons .btn-area .btn-in button.btn-danger{
+    background-color: var(--bs-danger);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-danger:active{
+    box-shadow: 0 0 0 4px #dc354563;
+}
+.buttons .btn-area .btn-in button.btn-danger{
+    background-color: var(--bs-danger);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-danger:active{
+    box-shadow: 0 0 0 4px #dc354563;
+}
+.buttons .btn-area .btn-in button.btn-light{
+    background-color: var(--bs-light);
+    color: black;
+}
+.buttons .btn-area .btn-in button.btn-light:active{
+    box-shadow: 0 0 0 4px #99999963;
+    /* #f8f9fa63 */
+}
+.buttons .btn-area .btn-in button.btn-dark{
+    background-color: var(--bs-dark);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-dark:active{
+    box-shadow: 0 0 0 4px #21252963;
+}
+.buttons .btn-area .btn-in button.btn-link{
+    text-decoration: underline;
+    color: var(--mainColor);
+}
+.buttons .btn-area .btn-in button.btn-link:active{
+    box-shadow: 0 0 0 4px #1a80b863;
+}
+
+.buttons .btn-area .btn-opa button.btn-main{
+    background-color: #1a80b821;
+    border: 2px solid #1a80b8;
+}
+.buttons .btn-area .btn-opa button.btn-main:hover{
+    background-color: #1a80b863;
+}
+.buttons .btn-area .btn-opa button.btn-main:active{
+    box-shadow: 0 0 0 4px var(--mainColorBlur2);
+}
+.buttons .btn-area .btn-opa button.btn-info{
+    background-color: var(--bs-info);
+    color: white;
+}
+.buttons .btn-area .btn-opa button.btn-info:active{
+    box-shadow: 0 0 0 4px #0dcaf063;
+}
+.buttons .btn-area .btn-opa button.btn-primary{
+    background-color: var(--bs-primary);
+    color: white;
+}
+.buttons .btn-area .btn-opa button.btn-primary:active{
+    box-shadow: 0 0 0 4px #0d6efd63;
+}
+.buttons .btn-area .btn-opa button.btn-secondary{
+    background-color: var(--bs-secondary);
+    color: white;
+}
+.buttons .btn-area .btn-opa button.btn-secondary:active{
+    box-shadow: 0 0 0 4px #6c757d63;
+}
+.buttons .btn-area .btn-opa button.btn-success{
+    background-color: var(--bs-success);
+    color: white;
+}
+.buttons .btn-area .btn-opa button.btn-success:active{
+    box-shadow: 0 0 0 4px #19875463;
+}
+.buttons .btn-area .btn-opa button.btn-warning{
+    background-color: var(--bs-warning);
+    color: white;
+}
+.buttons .btn-area .btn-opa button.btn-warning:active{
+    box-shadow: 0 0 0 4px #19875463;
+}
+.buttons .btn-area .btn-opa button.btn-danger{
+    background-color: var(--bs-danger);
+    color: white;
+}
+.buttons .btn-area .btn-opa button.btn-danger:active{
+    box-shadow: 0 0 0 4px #dc354563;
+}
+.buttons .btn-area .btn-opa button.btn-danger{
+    background-color: var(--bs-danger);
+    color: white;
+}
+.buttons .btn-area .btn-opa button.btn-danger:active{
+    box-shadow: 0 0 0 4px #dc354563;
+}
+.buttons .btn-area .btn-opa button.btn-light{
+    background-color: var(--bs-light);
+    color: black;
+}
+.buttons .btn-area .btn-opa button.btn-light:active{
+    box-shadow: 0 0 0 4px #99999963;
+    /* #f8f9fa63 */
+}
+.buttons .btn-area .btn-in button.btn-dark{
+    background-color: var(--bs-dark);
+    color: white;
+}
+.buttons .btn-area .btn-in button.btn-dark:active{
+    box-shadow: 0 0 0 4px #21252963;
+}
+.buttons .btn-area .btn-in button.btn-link{
+    text-decoration: underline;
+    color: var(--mainColor);
+}
+.buttons .btn-area .btn-in button.btn-link:active{
+    box-shadow: 0 0 0 4px #1a80b863;
+}
+/* btn */
