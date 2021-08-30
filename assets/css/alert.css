@@ -30,7 +30,7 @@ h1{
     font-family: '楷体', sans-serif;
 }
 .text h3{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     border-left: 4px solid;
     border-radius: 2px;
     margin: 10px 0;
@@ -40,9 +40,9 @@ h1{
     margin-bottom: 10px;
 }
 .text .poetry p{
-    font-size: 2rem;
-    line-height: 2.2rem;
-    /* margin: 5px 0; */
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    margin: 5px 0;
 }
 /* 具体样式 */
 .text-main{

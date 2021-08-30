@@ -83,3 +83,7 @@ const listalert = document.getElementById('alert');
 listalert.onclick = function(){
     window.location = "./pages/alert.html";
 }
+const listtext = document.getElementById('text');
+listtext.onclick = function(){
+    window.location = "./pages/text.html";
+}

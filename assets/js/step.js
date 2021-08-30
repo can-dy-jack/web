@@ -15,3 +15,7 @@ const alertStep = document.getElementById('alert');
 alertStep.onclick = function(){
     window.location = "./alert.html";
 }
+const textStep = document.getElementById('text');
+textStep.onclick = function(){
+    window.location = "./text.html";
+}
