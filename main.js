@@ -79,3 +79,7 @@ const listImg = document.getElementById('img');
 listImg.onclick = function(){
     window.location = "./pages/img.html";
 }
+const listalert = document.getElementById('alert');
+listalert.onclick = function(){
+    window.location = "./pages/alert.html";
+}

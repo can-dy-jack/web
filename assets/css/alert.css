@@ -1,0 +1,107 @@
+.content{
+    background-color: #fefefe;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-pink: #F000E8;
+    --bs-aqua: #37CDBE;
+
+    --bs-page-1: #eee8aa;
+}
+h1{
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.text{
+    margin: 20px 5px;
+    padding: 10px 20px;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-radius: 8px;
+    /* 默认颜色 - 好看 */
+    background-color: var(--bs-page-1);
+    border-left-color: #dfce14;
+    color: #111;
+}
+.text h3{
+    font-size: 1.5rem;
+}
+.text .information{
+    font-size: 14px;
+}
+.text .poetry p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin: 5px 0;
+}
+/* 具体样式 */
+.text-main{
+    background-color: #1a80b821;
+    color: #1a80b8;
+    border-left-color: #1a80b8;
+}
+.text-poetry{
+    background-color: #eee8aa;
+    border-left-color: #dfce14;
+    color: #111;
+}
+.text-warning{
+    background-color: #ffc10721;
+    border-left-color: #ffc107;
+    color: #ffc107;
+}
+.text-danger{
+    background-color: #dc354521;
+    border-left-color: #dc3545;
+    color: #dc3545;
+}
+.text-info{
+    background-color: #0dcaf021;
+    border-left-color: #0dcaf0;
+    color: #0dcaf0;
+}
+.text-success{
+    background-color: #19875421;
+    border-left-color: #198754;
+    color: #198754;
+}
+.text-light{
+    background-color: #f8f9fa;
+    border-left-color: #eee;
+    color: black;
+}
+.text-dark{
+    background-color: #21252921;
+    border-left-color: #212529;
+    color: #212529;
+}
+.text-teal{
+    background-color: #00808021;
+    border-left-color: teal;
+    color: teal;
+}
+.text-primary{
+    background-color: #0d6efd21;
+    border-left-color: #0d6efd;
+    color: #0d6efd;
+}
+.text-secondary{
+    background-color: #6c757d21;
+    border-left-color: #6c757d;
+    color: #6c757d;
+}
+.text-pink{
+    background-color: #F000E821;
+    border-left-color: #F000E8;
+    color: #F000E8;
+}
+.text-aqua{
+    background-color:  #37CDBE21;
+    border-left-color: #37CDBE;
+    color: #37CDBE;
+}

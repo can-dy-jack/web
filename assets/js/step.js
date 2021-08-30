@@ -11,3 +11,7 @@ const ButtonStep = document.getElementById('button');
 ButtonStep.onclick = function(){
     window.location = "./buttons.html";
 }
+const alertStep = document.getElementById('alert');
+alertStep.onclick = function(){
+    window.location = "./alert.html";
+}
