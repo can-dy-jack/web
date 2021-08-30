@@ -75,3 +75,7 @@ listButtons.onclick = function(){
     // /web/pages/buttons.html
     window.location = "./pages/buttons.html";
 }
+const listImg = document.getElementById('img');
+listImg.onclick = function(){
+    window.location = "./pages/img.html";
+}

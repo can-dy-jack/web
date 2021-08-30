@@ -7,6 +7,8 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
+    --bs-pink: #F000E8;
+    --bs-aqua: #37CDBE;
 }
 /* 导航条 */
 .content .box .buttons .navigatorBtn{
@@ -118,7 +120,7 @@ h3{
     color: white;
 }
 .buttons .btn-area .btn-in button.btn-warning:active{
-    box-shadow: 0 0 0 4px #19875463;
+    box-shadow: 0 0 0 4px #ffc10763;
 }
 .buttons .btn-area .btn-in button.btn-danger{
     background-color: var(--bs-danger);
@@ -200,7 +202,7 @@ h3{
     color: white;
 }
 .buttons .btn-area .btn-opa button.btn-warning:active{
-    box-shadow: 0 0 0 4px #19875463;
+    box-shadow: 0 0 0 4px #ffc10763;
 }
 .buttons .btn-area .btn-opa button.btn-danger{
     background-color: var(--bs-danger);
@@ -238,4 +240,79 @@ h3{
 .buttons .btn-area .btn-in button.btn-link:active{
     box-shadow: 0 0 0 4px #1a80b863;
 }
+
+
+.material-ui .btn-area>div>button.btn-main{
+    background-color: var(--mainColor);
+    color: white;
+}
+
+/* .buttons .btn-area .brand button{ */
+    /* transition: all 0.2s cubic-bezier(.4,0,.2,1); */
+/* } */
+.buttons .btn-area .brand button:active{
+    animation: buttonAnimation 0.5s ease-out;
+}
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(0.95);
+    }
+    70% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.buttons .btn-area .brand button.btn-main{
+    background-color: #1a80b8;
+    color: white;
+}
+.buttons .btn-area .brand button.btn-info{
+    background-color: var(--bs-info);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-primary{
+    background-color: var(--bs-primary);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-secondary{
+    background-color: var(--bs-secondary);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-success{
+    background-color: var(--bs-success);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-warning{
+    background-color: var(--bs-warning);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-danger{
+    background-color: var(--bs-danger);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-light{
+    background-color: var(--bs-light);
+    color: black;
+}
+.buttons .btn-area .brand button.btn-dark{
+    background-color: var(--bs-dark);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-link{
+    text-decoration: underline;
+    color: var(--mainColor);
+}
+.buttons .btn-area .brand button.btn-pink{
+    background-color: var(--bs-pink);
+    color: white;
+}
+.buttons .btn-area .brand button.btn-aqua{
+    background-color: var(--bs-aqua);
+    color: white;
+}
+/* .buttons .btn-area .brand button.btn-trans{
+    
+} */
 /* btn */
