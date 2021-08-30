@@ -27,21 +27,26 @@ h1{
     background-color: var(--bs-page-1);
     border-left-color: #dfce14;
     color: #111;
+    font-family: '楷体', sans-serif;
 }
 .text h3{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    border-left: 4px solid;
+    border-radius: 2px;
+    margin: 10px 0;
 }
 .text .information{
-    font-size: 14px;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 .text .poetry p{
-    font-size: 1rem;
-    line-height: 1.4rem;
-    margin: 5px 0;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    /* margin: 5px 0; */
 }
 /* 具体样式 */
 .text-main{
-    background-color: #1a80b821;
+    background-color: #1a80b821; /*最好用 #E0EEF5 */
     color: #1a80b8;
     border-left-color: #1a80b8;
 }
