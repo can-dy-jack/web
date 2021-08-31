@@ -37,6 +37,7 @@ h1{
     text-align: center;
     margin: 5px 0;
     cursor: default;
+    color: #111;
 }
 
 /* 特殊文字效果 */
@@ -63,7 +64,7 @@ h1{
 }
 .t-info{
     display: inline-block;
-    background-color: #9A7156;
+    background-color: #19875451;
     border-radius: 3px;
     color: #198754;
 }

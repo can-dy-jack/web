@@ -1,7 +1,8 @@
 // step
 const installStep = document.getElementById('install');
 installStep.onclick = function(){
-    window.location = "../../index.html";
+    // 适配GitHub 仓库
+    window.location = "/web/index.html";
 }
 const ImgStep = document.getElementById('img');
 ImgStep.onclick = function(){
@@ -18,4 +19,8 @@ alertStep.onclick = function(){
 const textStep = document.getElementById('text');
 textStep.onclick = function(){
     window.location = "./text.html";
+}
+const columnsStep = document.getElementById('columns');
+columnsStep.onclick = function(){
+    window.location = "./column.html";
 }

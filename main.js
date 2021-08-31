@@ -87,3 +87,7 @@ const listtext = document.getElementById('text');
 listtext.onclick = function(){
     window.location = "./pages/text.html";
 }
+const listcolumns = document.getElementById('columns');
+listcolumns.onclick = function(){
+    window.location = "./pages/column.html";
+}
