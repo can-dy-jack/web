@@ -11,3 +11,6 @@
 - [ ] 代码复用
     + vue重构
     + react重构
+
+
+[![jsDeliver](https://data.jsdelivr.com/v1/package/npm/vue/badge)](https://www.jsdelivr.com/package/npm/vue)

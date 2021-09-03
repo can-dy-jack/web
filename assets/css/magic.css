@@ -16,9 +16,11 @@
     color: white;
     line-height: 120px;
 }
-.box .magic-effects,.box .bling,.box .static-effects{
+.box .magic-effects,.box .bling,.box .static-effects,
+.box .static-effects-out{
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-around; */
 }
 .box .magic-effects>div{
     width: 120px;
@@ -33,6 +35,18 @@
 h3{
     margin: 30px 30px 0 30px;
     text-transform: lowercase;
+    padding: 10px 20px;
+    height: 26px;
+    line-height: 26px;
+    width: fit-content;
+    color: white;
+    border-radius: 12px;
+    box-shadow: inset 10px 10px 20px #104f72,
+             inset -10px -10px 20px #24b1fe;
+}
+h3::selection,small::selection{
+    color: black;
+    background-color: #fafafa;
 }
 .box .bling>div{
     width: 120px;height: 120px;
@@ -43,11 +57,114 @@ h3{
     margin: 30px 40px;
     cursor: pointer;
 }
+/*  */
 .box .static-effects>div{
     width: 120px;height: 120px;
-    border-radius: 8px;
-    background: #1A80B8;
-    box-shadow:  14px 14px 37px #0f4a6b,
-             -14px -14px 37px #25b6ff;
+    border-radius: 30px;
     margin: 30px;
+    background: linear-gradient(145deg, #1c89c5, #1773a6);
+    box-shadow:  13px 13px 43px #135c84,
+             -13px -13px 43px #21a4ec;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.box .static-effects>div:active{
+    border-radius: 30px;
+    background: linear-gradient(145deg, #1773a6, #1c89c5);
+    box-shadow:  13px 13px 43px #135c84,
+             -13px -13px 43px #21a4ec;
+}
+/*  */
+.box .static-effects-out>div{
+    width: 120px;height: 120px;
+    margin: 30px;
+    border-radius: 10px;
+    background: #1A80B8;
+    box-shadow:  14px 14px 40px #156997,
+             -14px -14px 40px #1f97d9;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.box .static-effects-out>div:active{
+    border-radius: 10px;
+    background: #1A80B8;
+    box-shadow: inset 6px 6px 21px #176fa0,
+            inset -6px -6px 21px #1d91d0;
+}
+/*  */
+.box .perspective{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box .perspective>div{
+    margin: 60px 50px 40px;
+    cursor: pointer;
+    background: #1A80B8;
+    box-shadow: 5px 5px 11px #14608a,
+            -5px -5px 11px #21a0e6;
+}
+
+/*  */
+.box .perspective>div:nth-child(1){
+    border-radius: 80px 80px 0 0;
+    width: 120px;
+    height: 60px;line-height: 80px;
+}
+.box .perspective>div:nth-child(2){
+    border-radius: 0 0 80px 80px;
+    width: 120px;
+    height: 60px;line-height: 50px;
+}
+.box .perspective>div:nth-child(3){
+    border-radius: 0 60px 60px 0;
+    width: 60px;height: 120px;
+    line-height: 120px;
+}
+.box .perspective>div:nth-child(4){
+    border-radius: 60px 0 0 60px;
+    width: 60px;height: 120px;
+    line-height: 120px;
+}
+.box .perspective>div:nth-child(5){
+    border-radius: 80px 80px 0 0;
+    width: 120px;
+    height: 60px;line-height: 80px;
+}
+.box .perspective>div:nth-child(6){
+    border-radius: 0 0 80px 80px;
+    width: 120px;
+    height: 60px;line-height: 50px;
+}
+.box .perspective>div:nth-child(7){
+    border-radius: 0 60px 60px 0;
+    width: 60px;height: 120px;
+    line-height: 120px;
+}
+.box .perspective>div:nth-child(8){
+    border-radius: 60px 0 0 60px;
+    width: 60px;height: 120px;
+    line-height: 120px;
+}
+
+/*  */
+.more{
+    margin: 10px 30px;
+    /* color: white; */
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #1c89c5, #0e6797);
+    box-shadow:  6px 6px 17px #156591,
+                 -6px -6px 17px #1f9bdf;
+}
+.more a{
+    text-decoration: white overline dotted;
+    color: white;
+    padding: 1px;
+    transition: all .15s ease-in;
+}
+.more a:hover{
+    background-color: #fafafa;
+    color: #333;
 }

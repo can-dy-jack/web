@@ -7,7 +7,7 @@
     <title>daisyUI - columns</title>
     <link rel="stylesheet" href="../assets/css/head.css">
     <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../package/magic-1.1.0/magic.css">
+    <link rel="stylesheet" href="../package/magic-1.1.0/magic.min.css">
     <link rel="stylesheet" href="../assets/css/magic.css">
 </head>
 
@@ -91,23 +91,45 @@
                 <div class="magictime vi">vanishIn</div>
                 <div class="magictime vo">vanishOut</div>
             </div>
-            <h3>STATIC EFFECTS</h3>
+            <h3>STATIC EFFECTS —— <small>onclick</small></h3>
             <div class="static-effects">
-                <div class="magictime"></div>
-                <div class="magictime"></div>
-                <div class="magictime"></div>
-                <div class="magictime"></div>
-                <div class="magictime"></div>
-                <div class="magictime"></div>
-                <div class="magictime"></div>
-                <div class="magictime"></div>
+                <div class="magictime odl">openDownLeft</div>
+                <div class="magictime odr">openDownRight</div>
+                <div class="magictime oul">openUpLeft</div>
+                <div class="magictime our">openUpRight</div>
+                <div class="magictime odlr">oDLReturn</div>
+                <div class="magictime odrr">oDRReturn</div>
+                <div class="magictime oulr">oULReturn</div>
+                <div class="magictime ourr">oURReturn</div>
+            </div>
+            <h3>STATIC EFFECTS OUT —— <small>onclick</small></h3>
+            <div class="static-effects-out">
+                <div class="magictime odlo">oDLeftOut</div>
+                <div class="magictime odro">oDRightOut</div>
+                <div class="magictime oulo">oULeftOut</div>
+                <div class="magictime ouro">oURightOut</div>
+            </div>
+            <h3>PERSPECTIVE —— <small>onclick</small></h3>
+            <div class="perspective">
+                <div class="magictime ped">pDown</div>
+                <div class="magictime peu">pUp</div>
+                <div class="magictime pel">pLeft</div>
+                <div class="magictime per">pRight</div>
+                
+                <div class="magictime pedr">pDownR</div>
+                <div class="magictime peur">pUpR</div>
+                <div class="magictime pelr">pLeftR</div>
+                <div class="magictime perr">pRightR</div>
+                
+            </div>
+            <div class="more">More is here：
+                <a href="https://github.com/miniMAC/magic" target="_blank">miniMAC/magic</a>
             </div>
         <!-- .box end -->
         </div>
-        <!-- circle normal -->
     </div>
     <script src="../assets/js/pub.js"></script>
-    <script src="../assets/js/step.js"></script>
+    <script src="./setlib.js"></script>
     <script src="./magic.js"></script>
 </body>
 
