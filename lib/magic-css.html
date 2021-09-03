@@ -7,7 +7,8 @@
     <title>daisyUI - columns</title>
     <link rel="stylesheet" href="../assets/css/head.css">
     <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../assets/css/column.css">
+    <link rel="stylesheet" href="../package/magic-1.1.0/magic.css">
+    <link rel="stylesheet" href="../assets/css/magic.css">
 </head>
 
 <body>
@@ -32,11 +33,11 @@
             <div id="button">Button</div>
             <div>Button Group</div>
             <div>Card</div>
-            <div class="active" id="columns">Columns</div>
+            <div id="columns">Columns</div>
             <div id="img">image</div>
             <div id="text">text</div>
             <p>第三方库</p>
-            <div id="magic-css">magic css</div>
+            <div class="active" id="magic-css">magic css</div>
             <p>Demos</p>
             <div>Cards</div>
             <div>Mobile-Screen</div>
@@ -75,16 +76,39 @@
             </div>
             
         </header>
-        <div class="box" id="con">
-            <div class="left" id="left"></div>
-            <div class="bar" id="bar"></div>
-            <div class="right" id="right"></div>
+        <div class="box">
+            <h3>MAGIC EFFECTS —— <small>onmouseover</small></h3>
+            <div class="magic-effects">
+                <div class="magictime mg">magic</div>
+                <div class="magictime td">twisterInDown</div>
+                <div class="magictime tu">twisterInUp</div>
+                <div class="magictime s">swap</div>
+            </div>
+            <h3>BLING —— <small>onclick</small></h3>
+            <div class="bling">
+                <div class="magictime pi">puffIn</div>
+                <div class="magictime po">puffOut</div>
+                <div class="magictime vi">vanishIn</div>
+                <div class="magictime vo">vanishOut</div>
+            </div>
+            <h3>STATIC EFFECTS</h3>
+            <div class="static-effects">
+                <div class="magictime"></div>
+                <div class="magictime"></div>
+                <div class="magictime"></div>
+                <div class="magictime"></div>
+                <div class="magictime"></div>
+                <div class="magictime"></div>
+                <div class="magictime"></div>
+                <div class="magictime"></div>
+            </div>
         <!-- .box end -->
-        </div> 
+        </div>
+        <!-- circle normal -->
     </div>
     <script src="../assets/js/pub.js"></script>
     <script src="../assets/js/step.js"></script>
-    <script src="./column.js"></script>
+    <script src="./magic.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,44 @@
+.content header{
+    width: 78%;
+}
+.box{
+    height: 70vh;
+    overflow-y: hidden;
+    border: 4px solid var(--mainColor);
+    background-color: #fafafa;
+    border-radius: 12px;
+    /*  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.box .left{
+    width: calc(30% - 5px);
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    background-color: #f0d369;
+}
+.box .bar{
+    width: 5px;
+    cursor: ew-resize;
+    background-color: #00eeee41;
+    height: 100%;
+    transition: all 0.2s ease;
+}
+.box .bar:hover{
+    background-color: #00eeee;
+}
+.box .right{
+    width: 70%;
+    /* height: 100%; */
+    border-radius: 0 8px 8px 0;
+    background-color: #72c955;
+}
+
+
+/* background: radial-gradient(ellipse at top, #DDBB3D, transparent),
+            radial-gradient(ellipse at bottom, #58B23B, transparent);
+
+radial-gradient(ellipse at left,#FD5853, transparent)
+*/

@@ -1,0 +1,53 @@
+.content{
+    background-color: var(--mainColor);
+    background: radial-gradient(#F1FEFA 40%,#fff 20%);
+    background-size: 24px 24px;
+}
+.box{
+    border-radius: 8px;
+    background-color: var(--mainColor);
+    box-shadow: 0 0 20px rgb(122,122,122);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box>div>div{
+    text-align: center;
+    color: white;
+    line-height: 120px;
+}
+.box .magic-effects,.box .bling,.box .static-effects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box .magic-effects>div{
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    background: #1A80B8;
+    box-shadow:  10px 10px 38px #135f88,
+             -10px -10px 38px #21a1e8;
+    margin: 30px;
+    cursor: pointer;
+}
+h3{
+    margin: 30px 30px 0 30px;
+    text-transform: lowercase;
+}
+.box .bling>div{
+    width: 120px;height: 120px;
+    border-radius: 50%;
+    background: #1A80B8;
+    box-shadow:  37px 37px 63px #104f72,
+             -37px -37px 63px #24b1fe;
+    margin: 30px 40px;
+    cursor: pointer;
+}
+.box .static-effects>div{
+    width: 120px;height: 120px;
+    border-radius: 8px;
+    background: #1A80B8;
+    box-shadow:  14px 14px 37px #0f4a6b,
+             -14px -14px 37px #25b6ff;
+    margin: 30px;
+}

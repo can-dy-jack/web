@@ -70,6 +70,7 @@ navigator1Bass.onclick = function(){
 //         dom[i].classList.remove('active');
 //     }
 // }
+// step 
 const listButtons = document.getElementById('button');
 listButtons.onclick = function(){
     // /web/pages/buttons.html
@@ -90,4 +91,9 @@ listtext.onclick = function(){
 const listcolumns = document.getElementById('columns');
 listcolumns.onclick = function(){
     window.location = "./pages/column.html";
+}
+
+const listmc = document.getElementById('magic-css');
+listmc.onclick = function(){
+    window.location = "./lib/magic-css.html";
 }

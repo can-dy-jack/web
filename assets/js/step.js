@@ -1,8 +1,8 @@
 // step
 const installStep = document.getElementById('install');
 installStep.onclick = function(){
-    // 适配GitHub 仓库
-    window.location = "/web/index.html";
+
+    window.location = "../index.html";
 }
 const ImgStep = document.getElementById('img');
 ImgStep.onclick = function(){
@@ -23,4 +23,9 @@ textStep.onclick = function(){
 const columnsStep = document.getElementById('columns');
 columnsStep.onclick = function(){
     window.location = "./column.html";
+}
+
+const mcStep = document.getElementById('magic-css');
+mcStep.onclick = function(){
+    window.location = "../lib/magic-css.html";
 }
