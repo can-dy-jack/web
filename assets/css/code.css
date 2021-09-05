@@ -1,0 +1,39 @@
+.mac{
+    background-color: #1E1E1E;
+    color: white;
+    padding: 40px 15px 15px;
+    box-shadow: 0 0 35px 25px #dae7e3;
+    position: relative;
+    font-size: 18px;
+    border-radius: 5px;
+    z-index: -1;
+    /* word-wrap: break-all; */
+    /* overflow-wrap: break-word; */
+}
+.mac .circle{
+    height: 14px;width: 14px;
+    border-radius: 50%;
+    background-color: #FF5F56;
+    display: block;
+    position: absolute;top: 15px;left: 15px;
+    /* cursor: pointer; */
+}
+.mac .circle::before{
+    content: '';
+    height: 14px;width: 14px;
+    border-radius: 50%;
+    background-color: #FFBD2E;
+    display: block;
+    position: absolute;left: 20px;
+}
+.mac .circle::after{
+    content: '';
+    height: 14px;width: 14px;
+    border-radius: 50%;
+    background-color: #27C93F;
+    display: block;
+    position: absolute;left: 40px;
+}
+.mac pre{
+    font-family:  'Helvetica Neue', sans-serif;
+}

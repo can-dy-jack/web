@@ -33,6 +33,7 @@
             <div id="button">Button</div>
             <div>Button Group</div>
             <div>Card</div>
+            <div id="code">code</div>
             <div id="columns">Columns</div>
             <div id="img">image</div>
             <div id="text">text</div>
@@ -76,13 +77,14 @@
             </div>
             
         </header>
-        <div class="box">
+        <div class="box" id="magic-box">
             <h3>MAGIC EFFECTS —— <small>onmouseover</small></h3>
             <div class="magic-effects">
-                <div class="magictime mg">magic</div>
-                <div class="magictime td">twisterInDown</div>
-                <div class="magictime tu">twisterInUp</div>
-                <div class="magictime s">swap</div>
+                <magic-list
+                v-for="item in magicEffects"
+                v-bind:list="item"
+                v-bind:key="item.id"
+                ></magic-list>
             </div>
             <h3>BLING —— <small>onclick</small></h3>
             <div class="bling">
@@ -93,14 +95,11 @@
             </div>
             <h3>STATIC EFFECTS —— <small>onclick</small></h3>
             <div class="static-effects">
-                <div class="magictime odl">openDownLeft</div>
-                <div class="magictime odr">openDownRight</div>
-                <div class="magictime oul">openUpLeft</div>
-                <div class="magictime our">openUpRight</div>
-                <div class="magictime odlr">oDLReturn</div>
-                <div class="magictime odrr">oDRReturn</div>
-                <div class="magictime oulr">oULReturn</div>
-                <div class="magictime ourr">oURReturn</div>
+                <magic-list
+                v-for="item in staticEffects"
+                v-bind:list="item"
+                v-bind:key="item.id"
+                ></magic-list>
             </div>
             <h3>STATIC EFFECTS OUT —— <small>onclick</small></h3>
             <div class="static-effects-out">
@@ -130,6 +129,8 @@
     </div>
     <script src="../assets/js/pub.js"></script>
     <script src="./setlib.js"></script>
+
+    <script src="https://unpkg.com/vue@next"></script>
     <script src="./magic.js"></script>
 </body>
 

@@ -24,6 +24,11 @@ const columnsStep = document.getElementById('columns');
 columnsStep.onclick = function(){
     window.location = "./column.html";
 }
+const codeStep = document.getElementById('code');
+codeStep.onclick = function(){
+    window.location = "./code.html";
+}
+
 
 const mcStep = document.getElementById('magic-css');
 mcStep.onclick = function(){

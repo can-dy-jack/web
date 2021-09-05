@@ -35,6 +35,7 @@
             <div id="button">Button</div>
             <div>Button Group</div>
             <div>Card</div>
+            <div id="code">code</div>
             <div id="columns">Columns</div>
             <div id="img">image</div>
             <div id="text">text</div>
@@ -131,11 +132,30 @@
                 </div>
             </div>
         <!-- .box end -->
-        </div> 
+            <div class="code" id="test">
+                <pre>console.log("Vue")</pre>
+                
+                <pre>已使用Vue {{ counter }} 秒</pre>
+                
+                <pre v-bind:title="time">悬停查看事件</pre>
+                
+                <pre>{{ message }}</pre>
+                <button class="btn" v-on:click="reverseMessage">反转信息</button>
+                
+                <pre>{{ something }}</pre>
+                <input type="text" v-model="something">
+
+                <pre v-if="vif">v-if message</pre>
+
+                <pre v-for="item in items">{{ item.text }}</pre>
+            </div>
+        </div>
     </div>
-    <footer>
+    <!-- <footer>
         
-    </footer>
+    </footer> -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./package/vue/v.js"></script>
     <script src="./assets/js/pub.js"></script>
     <!-- /web/assets/js/pub.js -->
     <script src="main.js"></script>

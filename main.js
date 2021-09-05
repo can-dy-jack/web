@@ -92,6 +92,10 @@ const listcolumns = document.getElementById('columns');
 listcolumns.onclick = function(){
     window.location = "./pages/column.html";
 }
+const listcode = document.getElementById('code');
+listcode.onclick = function(){
+    window.location = "./pages/code.html";
+}
 
 const listmc = document.getElementById('magic-css');
 listmc.onclick = function(){
