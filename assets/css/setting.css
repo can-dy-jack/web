@@ -1,0 +1,171 @@
+.box{
+    min-height: 100vh;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;flex-direction: row;
+    padding: 40px 20px;
+    justify-content: space-around;
+    
+}
+
+/* detail styles */
+.setting-items{
+    width: 200px;
+}
+.setting-items>div{
+    border-style: solid;
+    border-color: #eee;
+    border-width: 1px 1px 0 1px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.setting-items>div>div{
+    height: 40px;
+    text-indent: 25px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+/* .active */
+.active{
+    background-color: rgba(114, 166, 224, 0.1);
+    color: rgb(114, 166, 224);
+    border-left: 1px solid rgb(248, 43, 43);
+}
+
+/*  */
+.setting-details{
+    width: 600px;
+}
+.setting-details .infor{
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.setting-details .infor span{
+    color: rgb(114, 166, 224);
+    cursor: pointer;
+}
+hr{
+    margin: 5px 0 20px 0;
+    border: 1px solid #eee;
+    border-radius: 15px;
+}
+.setting-details .block{
+    margin-left: 15px;
+}
+.setting-details .block{
+    display: flex;
+    flex-direction: column;
+}
+.block input,.block textarea{
+    width: 500px;
+    border-radius: 4px;
+    margin: 5px 0 15px 0;
+    outline: none;
+    border: 1px solid #ddd;
+    background-color: #f5f7fe;
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.15s linear;
+    font-family: Helvetica Neue,Luxi Sans,DejaVu Sans,Hiragino Sans GB,Microsoft Yahei,sans-serif,Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+}
+.block input:focus,.block textarea:focus{
+    border-color: rgb(114, 166, 224);
+    box-shadow: 0 0 0 3px rgba(114, 166, 224, .4);
+}
+textarea.self{
+    height: 126px;
+    resize: vertical;
+    min-height: 23px;
+}
+textarea.chat{
+    min-height: 23px;
+    resize: vertical;
+}
+.setting-details .save-btn{
+   margin: 0 15px 50px 15px;
+   padding: 5px 10px;
+   font-size: 1rem;
+   background-color: #f5f7fe;
+   border: 1px solid #ddd;
+   cursor: pointer;
+   border-radius: 4px;
+}
+.setting-details .save-btn:active{
+    box-shadow: inset 0 0 5px #999;
+}
+
+.origin{
+    background-color: #f3f5f8;
+    width: fit-content;
+    padding: 8px 15px;
+    margin: 80px 15px 0;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    float: right;
+    box-shadow:inset 4px 4px 8px #eee,inset -4px -4px 8px #fff;
+}
+
+.vir-input{
+    margin: 0 15px;
+}
+.vir-input label{
+    display: block;
+}
+.vir-input>div{
+    display: flex;flex-direction: row;
+    
+    margin: 5px 0 10px 0;
+    border: 1px solid #ddd;
+    background-color: #f5f7fe;
+    padding: 0 10px;
+    border-radius: 4px;
+    width: 500px;
+    transition: all .15s linear;
+}
+.vir-input>div svg{
+    padding: 6px 0;
+    margin-right: 5px;
+    transition: all .15s linear;
+}
+.vir-input>div .vir-text{
+    padding: 8px 0;
+    font-size: 16px;
+    color: gray;
+}
+.vir-input>div>input{
+    outline: none;
+    border: 0;
+    padding: 8px 0;
+    background-color: #f5f7fe;
+    vertical-align: bottom;
+    font-size: 16px;
+    width: 400px;
+}
+.vir-input>div:focus-within{
+    border-color: rgb(114, 166, 224);
+    box-shadow: 0 0 0 3px rgba(114, 166, 224, .4);
+}
+.vir-input>div:focus-within svg{
+    fill: rgb(114, 166, 224);
+}
+
+
+.content{
+    scroll-behavior: smooth;
+}
+.to_top{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;cursor: pointer;
+    padding: 5px 8px;
+    background-color: rgb(114, 166, 224);
+    border-radius: 8px;
+}
+.to_top svg path{
+    fill: white;
+}
+

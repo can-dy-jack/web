@@ -15,3 +15,9 @@
   - react重构
 
 [![jsDeliver](https://data.jsdelivr.com/v1/package/npm/vue/badge)](https://www.jsdelivr.com/package/npm/vue)
+
+## 隐藏元素
+
+- hidden
+- display:none
+- opacity: 0

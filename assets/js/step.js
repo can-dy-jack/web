@@ -28,6 +28,10 @@ const codeStep = document.getElementById('code');
 codeStep.onclick = function(){
     window.location = "./code.html";
 }
+const settingStep = document.getElementById('setting');
+settingStep.onclick = function(){
+    window.location = "./setting.html";
+}
 
 
 const mcStep = document.getElementById('magic-css');

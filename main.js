@@ -96,6 +96,10 @@ const listcode = document.getElementById('code');
 listcode.onclick = function(){
     window.location = "./pages/code.html";
 }
+const listsetting = document.getElementById('setting');
+listsetting.onclick = function(){
+    window.location = "./pages/setting.html";
+}
 
 const listmc = document.getElementById('magic-css');
 listmc.onclick = function(){
