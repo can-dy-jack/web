@@ -32,6 +32,10 @@ const settingStep = document.getElementById('setting');
 settingStep.onclick = function(){
     window.location = "./setting.html";
 }
+const svgStep = document.getElementById('svg');
+svgStep.onclick = function(){
+    window.location = "./svg.html";
+}
 
 
 const mcStep = document.getElementById('magic-css');

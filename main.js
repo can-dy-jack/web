@@ -100,6 +100,10 @@ const listsetting = document.getElementById('setting');
 listsetting.onclick = function(){
     window.location = "./pages/setting.html";
 }
+const listsvg = document.getElementById('svg');
+listsvg.onclick = function(){
+    window.location = "./pages/svg.html";
+}
 
 const listmc = document.getElementById('magic-css');
 listmc.onclick = function(){

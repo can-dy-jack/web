@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>daisyUI - columns</title>
+    <title>daisyUI - text</title>
     <link rel="stylesheet" href="../assets/css/head.css">
     <link rel="stylesheet" href="../assets/css/main.css">
-    <link rel="stylesheet" href="../package/magic-1.1.0/magic.min.css">
-    <link rel="stylesheet" href="../assets/css/magic.css">
+    <link rel="stylesheet" href="../assets/css/svg.css">
 </head>
 
 <body>
@@ -33,14 +32,14 @@
             <div id="button">Button</div>
             <div>Button Group</div>
             <div>Card</div>
-            <div id="code">code</div>
+            <div id="code">Code</div>
             <div id="columns">Columns</div>
             <div id="img">image</div>
             <div id="setting">setting</div>
-            <div id="svg">svg</div>
+            <div class="active" id="svg">svg</div>
             <div id="text">text</div>
             <p>第三方库</p>
-            <div class="active" id="magic-css">magic css</div>
+            <div id="magic-css">magic css</div>
             <p>Demos</p>
             <div>Cards</div>
             <div>Mobile-Screen</div>
@@ -79,61 +78,26 @@
             </div>
             
         </header>
-        <div class="box" id="magic-box">
-            <h3>MAGIC EFFECTS —— <small>onmouseover</small></h3>
-            <div class="magic-effects">
-                <magic-list
-                v-for="item in magicEffects"
-                v-bind:list="item"
-                v-bind:key="item.id"
-                ></magic-list>
-            </div>
-            <h3>BLING —— <small>onclick</small></h3>
-            <div class="bling">
-                <div class="magictime pi">puffIn</div>
-                <div class="magictime po">puffOut</div>
-                <div class="magictime vi">vanishIn</div>
-                <div class="magictime vo">vanishOut</div>
-            </div>
-            <h3>STATIC EFFECTS —— <small>onclick</small></h3>
-            <div class="static-effects">
-                <magic-list
-                v-for="item in staticEffects"
-                v-bind:list="item"
-                v-bind:key="item.id"
-                ></magic-list>
-            </div>
-            <h3>STATIC EFFECTS OUT —— <small>onclick</small></h3>
-            <div class="static-effects-out">
-                <div class="magictime odlo">oDLeftOut</div>
-                <div class="magictime odro">oDRightOut</div>
-                <div class="magictime oulo">oULeftOut</div>
-                <div class="magictime ouro">oURightOut</div>
-            </div>
-            <h3>PERSPECTIVE —— <small>onclick</small></h3>
-            <div class="perspective">
-                <div class="magictime ped">pDown</div>
-                <div class="magictime peu">pUp</div>
-                <div class="magictime pel">pLeft</div>
-                <div class="magictime per">pRight</div>
-                
-                <div class="magictime pedr">pDownR</div>
-                <div class="magictime peur">pUpR</div>
-                <div class="magictime pelr">pLeftR</div>
-                <div class="magictime perr">pRightR</div>
-                
-            </div>
-            <div class="more">More is here：
-                <a href="https://github.com/miniMAC/magic" target="_blank">miniMAC/magic</a>
-            </div>
+        <div class="box">
+            <p class="text">
+                <h3>svg学习</h3>
+                <ul>
+                    <li>SVG 意为可缩放矢量图形（Scalable Vector Graphics）</li>
+                    <li>SVG 使用 XML 格式定义图像。</li>
+                </ul>
+            </p>
+            <p class="canvas-area">
+                <div class="circle">
+                    <svg>
+                        <circle cx="" cy="" r="" style=""/>
+                    </svg>
+                </div>
+            </p>
         <!-- .box end -->
-        </div>
+        </div> 
     </div>
     <script src="../assets/js/pub.js"></script>
-    <script src="./setlib.js"></script>
-
-    <script src="https://unpkg.com/vue@next"></script>
-    <script src="./magic.js"></script>
+    <script src="../assets/js/step.js"></script>
 </body>
 
 </html>

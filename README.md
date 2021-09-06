@@ -21,3 +21,7 @@
 - hidden
 - display:none
 - opacity: 0
+
+## 魔法
+
+- position: sticky;
