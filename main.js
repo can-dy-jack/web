@@ -108,6 +108,10 @@ const listaccordion = document.getElementById('accordion');
 listaccordion.onclick = function(){
     window.location = "./pages/accordion.html";
 }
+const liststicky = document.getElementById('sticky');
+liststicky.onclick = function(){
+    window.location = "./pages/sticky.html";
+}
 
 const listmc = document.getElementById('magic-css');
 listmc.onclick = function(){

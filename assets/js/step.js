@@ -40,7 +40,10 @@ const accordionStep = document.getElementById('accordion');
 accordionStep.onclick = function(){
     window.location = "./accordion.html";
 }
-
+const stickyStep = document.getElementById('sticky');
+stickyStep.onclick = function(){
+    window.location = "./sticky.html";
+}
 
 const mcStep = document.getElementById('magic-css');
 mcStep.onclick = function(){
