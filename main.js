@@ -104,6 +104,10 @@ const listsvg = document.getElementById('svg');
 listsvg.onclick = function(){
     window.location = "./pages/svg.html";
 }
+const listaccordion = document.getElementById('accordion');
+listaccordion.onclick = function(){
+    window.location = "./pages/accordion.html";
+}
 
 const listmc = document.getElementById('magic-css');
 listmc.onclick = function(){

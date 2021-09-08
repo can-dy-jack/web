@@ -11,4 +11,12 @@ body{
     color: white;
     border-radius: 16px;
     padding: 30px 40px;
+    transform: translateY(-30px);
+}
+.box h5{
+    color: white;
+}
+
+.box svg{
+    background-color: #876;
 }

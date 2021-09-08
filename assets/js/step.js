@@ -36,6 +36,10 @@ const svgStep = document.getElementById('svg');
 svgStep.onclick = function(){
     window.location = "./svg.html";
 }
+const accordionStep = document.getElementById('accordion');
+accordionStep.onclick = function(){
+    window.location = "./accordion.html";
+}
 
 
 const mcStep = document.getElementById('magic-css');
