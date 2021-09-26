@@ -25,3 +25,14 @@
 ## 魔法
 
 - position: sticky;
+
+## need to do
+
+- 第三方——MDUI（框架）
+
+### doing~
+
+- fabric.js(and native canvas)
+- web component
+- svg learning
+- music and comment(bilibili iframe and bilibili music comment API)

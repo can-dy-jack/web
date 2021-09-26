@@ -117,3 +117,12 @@ const listmc = document.getElementById('magic-css');
 listmc.onclick = function(){
     window.location = "./lib/magic-css.html";
 }
+const listfabric = document.getElementById('fabric');
+listfabric.onclick = function(){
+    window.location = "./lib/fabric.html";
+}
+
+const listmusic = document.getElementById('music');
+listmusic.onclick = function(){
+    window.location = "./music/music.html";
+}

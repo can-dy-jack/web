@@ -1,0 +1,19 @@
+.box{
+    min-height: 100vh;
+    /* background-color: burlywood; */
+}
+.box>div,.box>canvas{
+    margin: 10px 0;
+}
+
+/* fabric */
+.box #c{
+    border: 1px solid  var(--mainColorBlur2);
+    box-shadow: 0 0 10px 4px var(--mainColorBlur);
+    border-radius: 5px;
+}
+
+/* 原生 */
+.box .canvas-native{
+    background-color: #ffccff;
+}

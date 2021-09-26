@@ -315,4 +315,25 @@ h3{
 /* .buttons .btn-area .brand button.btn-trans{
     
 } */
+/* .buttons .btn-area .really{
+
+} */
+.buttons .btn-area .really a{
+    background-color: #e0e4e8;
+    text-decoration: none;
+    color: black;
+    padding: 6px 10px;
+    margin: 10px 5px;
+}
+.buttons .btn-area .really .d3{
+    transition: background-color 0.15s ease-in-out;
+    border: 1px solid rgba(128, 128, 128,.4);
+    box-shadow: 0 -2px 0 0 rgba(128,128,128,.4) inset;
+}
+.buttons .btn-area .really .d3:hover{
+    background-color: #ced1d4;
+}
+.buttons .btn-area .really .d3:active{
+    box-shadow: 0 2px 1px 0 rgba(128,128,128,.4) inset;
+}
 /* btn */

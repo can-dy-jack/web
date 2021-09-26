@@ -1,0 +1,32 @@
+.box{
+
+    /* background-color: #fafafa; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    min-height: 100vh;
+}
+.box h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0;
+}
+.box .scroll{
+    background-color: #0000ff63;
+}
+.scroll{
+    display: flex;
+    flex-direction: row;
+}
+.scroll>div{
+    width: 33%;
+}
+
+
+.s-1 .free{
+    background-color: #ff000063;
+    float: right;
+}
+.s-1 .money{
+    background-color: #00800063;
+}
